@@ -1,0 +1,5 @@
+ENABLE_I2C ?= "1"
+KERNEL_MODULE_AUTOLOAD:append = " vc4 v3d gpu-sched i2c-dev i2c-bcm2835"
+RPI_USE_U_BOOT ?= "1"
+ENABLE_UART ?= "1"
+DISABLE_VC4GRAPHICS ?= "0"
